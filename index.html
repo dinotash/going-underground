@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en-gb" />
+	<title>busMap - Tom Curtis Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="../style.css" />
+	<link rel="Start" href="/" />
+	<!--[if lt IE 9]>
+			<script type="text/javascript">alert("Your browser does not support the canvas tag.");</script>
+	<![endif]-->
+	<script src="processing.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		// convenience function to get the id attribute of generated sketch html element
+		function getProcessingSketchId () { return 'goingUndergroundGame'; }
+	</script>
+</head>
+<body>
+	<div id="main">
+	<h1>Going Underground</h1>
+	<p>You're on the Victoria Line looking at the people opposite. You have to avoid making eye contact. It's rude to stare.</p>
+	<div id="canvas">
+		<canvas id="goingUndergroundGame" data-processing-sources="eyeContact.pde" width="400" height="200">
+			<p>Your browser does not support the canvas tag.</p>
+		</canvas>
+		<noscript>
+			<p>JavaScript is required to view the contents of this page.</p>
+		</noscript>
+	</div>
+	<p>Here's the rules of the game:</p>
+	<ul>
+		<li>Your attention is drawn to the person nearest where you're looking.</li>
+		<li>Use the arrow keys to control where you're looking.</li>
+		<li>Your bounce back if you move it to the edge of what you can see.</li>
+		<li>If you don't press an arrow key for five seconds, you lose control.</li>
+	</ul>
+	
+	<p>I wrote Going Underground using processing.js. It is available under an MIT licence.</p>
+	<ul class="links">
+		<li><a href="https://github.com/dinotash/going-underground">Going Underground source code on Github</a></li>
+		<li><a href="http://processingjs.org">processing.js</a></li>
+		<li><a href="http://kottke.org/plus/type/silkscreen/">Silkscreen typeface by Jason Kottke</a></li>
+	</ul>
+
+	<div class="technical">
+		<h2>Random character generation</h2>
+		<p>My favorite part about making this game was making a different cast of passengers for every game. London is a very diverse place with all kinds of people in it. There are around 75 quadrillion possible people for you to look at!</p>
+		<p>The game has a weighted random probability function to decide if each passenger should be male, female, bespectacled, bearded, bald, and wearing a skirt, dress, v-neck top or showing their midriff. It also has a set palette of colors for hair, skin, eyes, pants and shoes, although shirts can be any colour. Heights and lengths of clothes are also random, within a range.</p>
+	</div>
+
+	</div>
+
+	<div id="navbar">
+		<a href="../">Home</a>
+		<a href="../projects">Projects</a>
+		<a href="../github">Github</a>
+		<a href="../resume.pdf">Resume</a>
+		<a href="mailto:tom@chamberlaincurtis.com">Email</a>
+	</div>
+
+</body>
+</html>
