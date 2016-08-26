@@ -1,5 +1,7 @@
 # Going Underground
 
+Play: http://dinotash.com/goingunderground/
+
 You're on the Victoria Line looking at the people opposite. You have to avoid making eye contact. It's rude to stare.
 
 Here's the rules of the game:
